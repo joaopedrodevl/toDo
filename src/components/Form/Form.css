@@ -1,0 +1,39 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarefa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.form input[type="text"] {
+  flex: 1;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.form button[type="submit"]{
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 0 4px 4px 0;
+  background-color: #f04c64;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form button[type="submit"]:hover{
+  background-color: #e92643;
+  transition: all 0.3s ease-in-out;
+}
